@@ -1,5 +1,5 @@
-# TP Instagram - Phillippe DELENTE
+# TP Instagram - Sebiane Abane
 
-[Voir la page de connexion](https://phildaiguille.github.io/TP_Instagram/index.html)
+[Voir la page de connexion](https://abane1.github.io/PPE_Instagram//index.html)
 
-[Voir la page d'accueil](https://phildaiguille.github.io/TP_Instagram/accueil.html)
+[Voir la page d'accueil](https://abane1.github.io/PPE_Instagram/accueil.html)
