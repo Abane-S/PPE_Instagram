@@ -1,0 +1,185 @@
+/* reset css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.6rem 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #fafafa;
+}
+h1,h2,h3,h4,h5,h6,p,figure,ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    color: #222;
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+button{
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+/* header */
+
+header{
+    padding: 2rem;
+    text-align: center;
+    background-color: #fafafa;
+}
+header h1{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: #6b6b6b;
+}
+header h1 .insta{
+    color: #222;
+}
+
+/*main*/
+
+main{
+    padding : 0.5rem;
+    max-width: 37rem;
+    margin: 0 auto;
+}
+.form{
+    display: block;
+    margin: 1rem auto;
+    background-color: #fff;
+    border: solid 0.1rem #dedede;
+    padding: 2rem 3rem;
+}
+/*alert*/
+.error{
+    display: block;
+    color: #B30000;
+    text-align: center;
+    width: 100%;
+}
+.success{
+    display: block;
+    color: rgb(0, 117, 0);
+    text-align: center;
+    width: 100%;
+}
+.form .insta{
+    display: block;
+    max-width: 22rem;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+section{
+    margin: 1rem auto;
+    max-width: 37rem;
+}
+
+.form ul li{
+    text-align: center;
+    padding-top: 2rem;
+}
+.form ul li:last-child{
+    padding-top: 1rem;
+}
+
+.form form input{
+    width: 100%;
+    height: auto;
+    border: solid 0.1rem #dedede;
+    border-radius: 0.1rem;
+    background-color: #fafafa;
+    padding: 1rem 0.5rem;
+    margin: 1rem auto;
+}
+.form form input:nth-child(3){
+    background-color: #2279ca;
+    border: none;
+    border-radius: 0.2rem;
+    color: #fff;
+    cursor: pointer;
+}
+form *{
+    display: block;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+html body main div.form ul li a{
+    color: #385185;
+}
+section h2 a{
+    color: #1674cc;
+}
+section h2{
+    text-align: center;
+    width: 100%;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    padding: 2rem;
+    border: solid 0.1rem #dedede;
+    color: #222;
+}
+section .fin li{
+    margin: 1rem auto;
+    text-align: center;
+    display: block;
+}
+section .fin li a img{
+    max-width: 15rem;
+    margin: 0 auto;
+}
+section .fin li a{
+    text-align: center;
+    margin: .5rem;
+}
+.form ul .fa img{
+    width: 1.5rem;
+    transform: translateX(-1rem);
+}
+.form ul .fa a{
+    color: #385185;
+}
+.form .ou{
+    text-align: center;
+    transform: translateY(1rem);
+    background-color: #fff;
+    width: 5rem;
+    color: #6b6b6b;
+    margin: 0rem auto;
+}
+.form  hr{
+    width: 100%;
+    border: solid 0.1rem #959595;
+    margin: 0 auto;
+}
+section a{
+    text-align: center;
+}
+section  .inst{
+    width: 55%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*footer*/
+footer p{
+    text-align: center;
+}
+
+@media screen and (max-width: 70rem) {
+    main{
+        margin: 0 auto;
+    }
+    section .fin li a img{
+        max-width: 13rem;
+        margin: 0 auto;
+    }
+}
